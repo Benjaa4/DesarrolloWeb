@@ -1,0 +1,74 @@
+footer {margin-top: 20rem;}
+body {font-family: 'Lucida',monospace;background-image:url(../assets/images/wallpaper.jpeg);color: rgb(0, 0, 0); background-repeat:repeat;}
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-top: 20px;
+padding-left: 5%;
+padding-right: 5%;
+font-weight: bold;
+background-image: url(../assets/images/7951379690780-1.jpg); ;}
+/* Navegación a través de las paginas */
+
+/* subtitulos importantes de la pagina */
+.Titulos {text-align:center; margin: 3rem ; text-decoration: underline;color: rgba(246, 118, 255, 0.708)}
+.IndexContainer {display:flexbox;}
+.FormContainer {display: flex; justify-content: center; margin:4rem;background-color: rgb(246, 118, 255);border-radius: 2rem;width:50%;}
+footer {color: black; padding-top: 15rem;}
+
+
+
+
+/* Titulo de la pagina */
+ul li {
+    display: inline-block;
+    padding: 0rem 1rem;
+}
+a {color: rgb(255, 255, 255);
+text-decoration: none;
+}
+a:hover {color:rgba(135, 206, 235, 100);}
+/* personalización de los link del header */
+
+/* header de todas las paginas*/
+
+/* Textos de la pagina */
+p {width: 50%;text-align: center;justify-content: center;margin: 0 auto;font-size:18px;font-weight: bold; color: black;}
+
+/* Juegos pagina */
+.ImgContainer {
+    
+    display:flex;
+    justify-content: space-between;
+  
+}
+.ImgJuegos {margin-left: auto; margin-right: auto; margin-top: 2cm;}
+.ImgJuegos:hover {
+    transform:scale(1.2)
+
+}
+/* contacto pagina */
+.CPage {display: flexbox;}
+
+    
+    @media (max-width: 768px) { 
+        .ImgContainer {
+            display: grid; justify-content: space-evenly;
+        }
+       
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
