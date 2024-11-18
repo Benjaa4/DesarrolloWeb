@@ -12,7 +12,7 @@ background-image: url(../assets/images/7951379690780-1.jpg); ;}
 /* Navegación a través de las paginas */
 
 /* subtitulos importantes de la pagina */
-.Titulos {text-align:center; margin: 3rem ; text-decoration: underline;color: rgba(246, 118, 255, 0.708)}
+.Titulos {text-align:center; margin: 3rem ; text-decoration: underline;color: rgb(53, 1, 56)}
 .IndexContainer {display:flexbox;}
 .FormContainer {display: flex; justify-content: center; margin:4rem;background-color: rgb(246, 118, 255);border-radius: 2rem;width:50%;}
 footer {color: black; padding-top: 15rem;}
