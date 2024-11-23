@@ -12,10 +12,15 @@ background-image: url(../assets/images/7951379690780-1.jpg); ;}
 /* Navegación a través de las paginas */
 
 /* subtitulos importantes de la pagina */
-.Titulos {text-align:center; margin: 3rem ; text-decoration: underline;color: rgb(53, 1, 56)}
-.IndexContainer {display:flexbox;}
-.FormContainer {display: flex; justify-content: center; margin:4rem;background-color: rgb(246, 118, 255);border-radius: 2rem;width:50%;}
+.titulos {text-align:center; margin: 3rem ;padding-top: 2rem; text-decoration: underline;color: rgb(53, 1, 56)}
+.indexContainer {display:flexbox;}
+.formContainer {display: flex; justify-content: center; margin:4rem;background-color: rgb(246, 118, 255);border-radius: 2rem;width:50%;}
+.titulo {text-align:left; margin: 3rem ;padding-top: 9rem; text-decoration: underline;color: rgb(53, 1, 56)}
+p {display: inline-block;text-align: center;justify-content: center;margin: 0 auto;font-size:18px;font-weight:450; color: black;}
+.p {display: inline-block;text-align: left;justify-content: center;margin-left:2rem;font-size:18px;font-weight:450; color: black;}
 footer {color: black; padding-top: 15rem;}
+
+
 
 
 
@@ -25,35 +30,30 @@ ul li {
     display: inline-block;
     padding: 0rem 1rem;
 }
-a {color: rgb(255, 255, 255);
-text-decoration: none;
-}
+
 a:hover {color:rgba(135, 206, 235, 100);}
 /* personalización de los link del header */
 
 /* header de todas las paginas*/
 
-/* Textos de la pagina */
-p {width: 50%;text-align: center;justify-content: center;margin: 0 auto;font-size:18px;font-weight: bold; color: black;}
-
 /* Juegos pagina */
-.ImgContainer {
+.imgContainer {
     
     display:flex;
     justify-content: space-between;
   
 }
-.ImgJuegos {margin-left: auto; margin-right: auto; margin-top: 2cm;}
-.ImgJuegos:hover {
+.imgJuegos {margin-left: auto; margin-right: auto; margin-top: 2cm;}
+.imgJuegos:hover {
     transform:scale(1.2)
 
 }
 /* contacto pagina */
-.CPage {display: flexbox;}
+.cPage {display: flexbox;}
 
     
     @media (max-width: 768px) { 
-        .ImgContainer {
+        .imgContainer {
             display: grid; justify-content: space-evenly;
         }
        
