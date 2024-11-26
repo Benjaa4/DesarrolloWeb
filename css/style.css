@@ -1,8 +1,3 @@
-@charset "UTF-8";
-footer {
-  margin-top: 20rem;
-}
-
 body {
   font-family: "Lucida", monospace;
   background-image: url(../assets/images/hex-background-networking.jpg);
@@ -21,27 +16,12 @@ nav {
   font-weight: bold;
 }
 
-/* Navegación a través de las paginas */
-/* subtitulos importantes de la pagina */
 .titulos {
   text-align: center;
   margin: 3rem;
   padding-top: 2rem;
   text-decoration: underline;
   color: rgb(53, 1, 56);
-}
-
-.indexContainer {
-  display: flexbox;
-}
-
-.formContainer {
-  display: flex;
-  justify-content: center;
-  margin: 4rem;
-  background-color: rgb(246, 118, 255);
-  border-radius: 2rem;
-  width: 50%;
 }
 
 .titulo {
@@ -73,48 +53,9 @@ p {
 }
 
 footer {
+  margin: top 20rem;
   color: black;
   padding-top: 15rem;
-}
-
-/* Titulo de la pagina */
-ul li {
-  display: inline-block;
-  padding: 0rem 1rem;
-}
-
-a:hover {
-  color: rgb(135, 206, 235);
-}
-
-/* personalización de los link del header */
-/* header de todas las paginas*/
-/* Juegos pagina */
-.imgContainer {
-  display: flex;
-  justify-content: space-between;
-}
-
-.imgJuegos {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2cm;
-}
-
-.imgJuegos:hover {
-  transform: scale(1.2);
-}
-
-/* contacto pagina */
-.cPage {
-  display: flexbox;
-}
-
-@media (max-width: 768px) {
-  .imgContainer {
-    display: grid;
-    justify-content: space-evenly;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */
