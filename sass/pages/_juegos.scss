@@ -1,0 +1,11 @@
+.imgContainer {
+    
+    display:flex;
+    justify-content: space-between;
+  
+}
+.imgJuegos {margin-left: auto; margin-right: auto; margin-top: 2cm;}
+.imgJuegos:hover {
+    transform:scale(1.2)
+
+}

@@ -73,4 +73,6 @@ footer {
   transform: scale(1.2);
 }
 
-/*# sourceMappingURL=style.css.map */
+.cPage {
+  display: flexbox;
+}/*# sourceMappingURL=style.css.map */
