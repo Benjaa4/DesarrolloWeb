@@ -6,15 +6,6 @@ body {
   background-size: cover;
 }
 
-@media (max-width: 768px) {
-  .imgContainer {
-    display: grid;
-    justify-content: space-evenly;
-  }
-  .container {
-    flex-direction: column;
-  }
-}
 .titulos {
   text-align: center;
   margin: 3rem;
@@ -52,7 +43,6 @@ p {
   color: black;
 }
 
-/* .pF {display:inline-block;text-align:center;justify-content:center;font-size:18px;font-weight:450; color: black; width: 50%;} */
 nav {
   display: flex;
   align-items: center;
@@ -102,6 +92,36 @@ form {
 
 .btnSubmit {
   margin-left: 2rem;
+}
+
+.cntContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.pC {
+  font-size: 30px;
+  font-weight: bold;
+  font-style: oblique;
+  margin-right: 4rem;
+  padding-top: 9rem;
+}
+
+@media (max-width: 768px) {
+  .imgContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .cntContainer {
+    flex-direction: column;
+  }
+  .pC {
+    font-size: 15px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

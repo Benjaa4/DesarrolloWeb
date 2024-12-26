@@ -1,0 +1,12 @@
+.cntContainer {display: flex; flex-direction: row;}
+.pC {font-size: 30px; font-weight: bold; font-style:oblique;margin-right: 4rem; padding-top: 9rem;}
+
+
+
+
+@media (max-width: 768px) { .imgContainer {
+    display: flex; flex-direction: column;justify-content: space-evenly}
+    .container {flex-direction: column;}
+.cntContainer {flex-direction: column;} 
+.pC {font-size: 15px}}
+    
