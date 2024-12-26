@@ -1,21 +1,20 @@
 body {
-  font-family: "Lucida", monospace;
+  font-family: "Lucida";
   background-image: url(../assets/images/hex-background-networking.jpg);
   color: rgb(0, 0, 0);
   background-repeat: repeat;
   background-size: cover;
 }
 
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 20px;
-  padding-left: 5%;
-  padding-right: 5%;
-  font-weight: bold;
+@media (max-width: 768px) {
+  .imgContainer {
+    display: grid;
+    justify-content: space-evenly;
+  }
+  .container {
+    flex-direction: column;
+  }
 }
-
 .titulos {
   text-align: center;
   margin: 3rem;
@@ -24,10 +23,10 @@ nav {
   color: rgb(53, 1, 56);
 }
 
-.titulo {
+.tituloL {
   text-align: left;
   margin: 3rem;
-  padding-top: 9rem;
+  padding-top: 2rem;
   text-decoration: underline;
   color: rgb(53, 1, 56);
 }
@@ -43,7 +42,7 @@ p {
   margin-left: 25%;
 }
 
-.p {
+.pL {
   display: inline-block;
   text-align: left;
   justify-content: center;
@@ -51,6 +50,17 @@ p {
   font-size: 18px;
   font-weight: 450;
   color: black;
+}
+
+/* .pF {display:inline-block;text-align:center;justify-content:center;font-size:18px;font-weight:450; color: black; width: 50%;} */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-weight: bold;
 }
 
 footer {
@@ -74,8 +84,24 @@ footer {
   transform: scale(1.2);
 }
 
-.cPage {
-  display: flexbox;
+.container {
+  display: flex;
+  align-items: left;
+  text-align: left;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.containerItem {
+  margin-top: 5rem;
+}
+
+form {
+  padding-top: 12rem;
+}
+
+.btnSubmit {
+  margin-left: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */

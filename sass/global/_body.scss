@@ -1,1 +1,7 @@
-body {font-family: 'Lucida',monospace;background-image:url(../assets/images/hex-background-networking.jpg);color: rgb(0, 0, 0); background-repeat:repeat; background-size: cover;}
+body {font-family:'Lucida';background-image:url(../assets/images/hex-background-networking.jpg);color: rgb(0, 0, 0); background-repeat:repeat; background-size: cover;}
+@media (max-width: 768px) { 
+    .imgContainer {
+        display: grid; justify-content: space-evenly;}
+        .container {flex-direction: column;}
+
+}

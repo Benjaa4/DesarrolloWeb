@@ -1,1 +1,5 @@
-.cPage {display: flexbox;}
+.container {display: flex; align-items: left  ; text-align: left; justify-content: space-between; flex-direction: row;}
+.containerItem {margin-top: 5rem; }
+form {padding-top: 12rem;}
+.btnSubmit {margin-left: 2rem;}
+
